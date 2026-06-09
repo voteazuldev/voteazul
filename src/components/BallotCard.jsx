@@ -62,7 +62,7 @@ function BallotCard({ state, electionData, electionName, electionDate, selection
         ctx.font = "500 26px Inter, sans-serif";
         ctx.fillStyle = "#99ccff";
         ctx.letterSpacing = "3px";
-        ctx.fillText("I'M VOTING IN THE", pad, y += eyebrowH);
+        ctx.fillText("MY ENDORSEMENTS FOR THE", pad, y += eyebrowH);
         ctx.letterSpacing = "0px";
 
         // Title
