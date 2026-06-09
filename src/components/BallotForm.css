@@ -1,0 +1,54 @@
+.ballot-form h2 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #003366;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.ballot-form-field {
+  margin-bottom: 18px;
+}
+
+.ballot-form-field label {
+  display: block;
+  font-size: 11px;
+  font-weight: 500;
+  color: #556677;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 5px;
+}
+
+.ballot-form-field select {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 13px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 51, 102, 0.2);
+  background: rgba(255, 255, 255, 0.8);
+  color: #003366;
+}
+
+.ballot-form-field select:focus {
+  outline: none;
+  border-color: rgba(0, 51, 102, 0.5);
+}
+
+.ballot-submit-btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  background: #003366;
+  color: #99ccff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.ballot-submit-btn:hover {
+  background: #004488;
+}
