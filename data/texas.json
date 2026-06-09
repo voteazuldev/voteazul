@@ -1,0 +1,79 @@
+{
+  "state": "Texas",
+  "name": "General Election",
+  "date": "2026-11-03",
+  "ballot": [
+    {
+      "office": "U.S. Senate",
+      "candidates": [
+        "James Talarico"
+      ]
+    },
+    {
+      "office": "Governor",
+      "candidates": [
+        "Gina Hinojosa"
+      ]
+    },
+    {
+      "office": "Lieutenant Governor",
+      "candidates": [
+        "Vikki Goodwin"
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "candidates": [
+        "Nathan Johnson"
+      ]
+    },
+    {
+      "office": "Comptroller",
+      "candidates": [
+        "Sarah Eckhardt"
+      ]
+    },
+    {
+      "office": "Land Commissioner",
+      "candidates": [
+        "Benjamin Flores"
+      ]
+    },
+    {
+      "office": "Agriculture Commissioner",
+      "candidates": [
+        "Clayton Tucker"
+      ]
+    },
+    {
+      "office": "Railroad Commissioner",
+      "candidates": [
+        "Jon Rosenthal"
+      ]
+    },
+    {
+      "office": "Chief Justice",
+      "candidates": [
+        "Maggie Ellis"
+      ]
+    },
+    {
+      "office": "Justice Place 2",
+      "candidates": [
+        "Chari Kelly"
+      ]
+    },
+    {
+      "office": "Justice Place 7",
+      "candidates": [
+        "Kristen Hawkins"
+      ]
+    },
+    {
+      "office": "Justice Place 8",
+      "candidates": [
+        "Gisela Triana"
+      ]
+    }
+  ]
+}
