@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import BallotCard from "./components/BallotCard";
 import BallotForm from "./components/BallotForm";
+import './App.css'
 
 const STATES = [
   "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado",
@@ -29,6 +30,7 @@ function App() {
     setLoading(true);
     setError(null);
     setElectionData(null);
+    setSelections(null);
 
     fetch(`/data/${filename}.json`)
       .then((res) => {
@@ -53,7 +55,7 @@ function App() {
     const { name, date, ballot } = electionData;
 
     if (!date) {
-      return <p>No upcoming election at this time. Check back later.</p>;
+      return <p className="status-message">No upcoming election at this time. Check back later.</p>;
     }
 
     const formattedDate = new Date(date + "T00:00:00").toLocaleDateString("en-US", {
@@ -62,52 +64,66 @@ function App() {
 
     if (ballot.length === 0) {
       return (
-        <p>
-          <strong>{name}</strong> — {formattedDate}<br />
-          Candidates not yet announced. Check back closer to election day.
-        </p>
+        <div>
+          <div className="election-badge">
+            <div className="election-badge-name">{name}</div>
+            <div className="election-badge-date">{formattedDate}</div>
+          </div>
+          <p className="status-message">Candidates not yet announced. Check back closer to election day.</p>
+        </div>
       );
     }
 
     return (
       <div>
-        <p><strong>{name}</strong> — {formattedDate}</p>
-        <div style={{ display: "flex", gap: "2rem", alignItems: "flex-start" }}>
-          <BallotForm
-            ballot={ballot}
-            onSubmit={(selections) => setSelections(selections)}
-          />
+        <div className="election-badge">
+          <div className="election-badge-name">{name}</div>
+          <div className="election-badge-date">{formattedDate}</div>
+        </div>
+        <div className="split-screen">
+          <div className="glass-panel">
+            <BallotForm
+              ballot={ballot}
+              onSubmit={(selections) => setSelections(selections)}
+            />
+          </div>
           {selections &&
-            <BallotCard
-              state={selectedState}
-              electionName={electionData.name}
-              electionDate={electionData.date}
-              selections={selections}
-            />}
+            <div className="glass-panel">
+              <BallotCard
+                state={selectedState}
+                electionName={electionData.name}
+                electionDate={electionData.date}
+                selections={selections}
+              />
+            </div>}
         </div>
       </div>
     );
   };
 
   return (
-    <div style={{ padding: "2rem", fontFamily: "sans-serif" }}>
-      <h1>VoteAzul</h1>
-      <label htmlFor="state-select"><strong>Select your state:</strong></label>
-      <br />
-      <select
-        id="state-select"
-        value={selectedState}
-        onChange={(e) => setSelectedState(e.target.value)}
-        style={{ marginTop: "0.5rem", fontSize: "1rem", padding: "0.5rem" }}
-      >
-        <option value="">-- Select a state --</option>
-        {STATES.map((s) => (
-          <option key={s} value={s}>{s}</option>
-        ))}
-      </select>
-
-      <div style={{ marginTop: "1.5rem" }}>
-        {renderElectionStatus()}
+    <div>
+      <header className="app-header">
+        <div>
+          <div className="app-logo">VOTEAZUL</div>
+          <div className="app-tagline">Your voice. Your ballot. Your community.</div>
+        </div>
+      </header>
+      <div className="app-body">
+        <div className="state-row">
+          <select
+            id="state-select"
+            className="state-select"
+            value={selectedState}
+            onChange={(e) => setSelectedState(e.target.value)}
+          >
+            <option value="">-- Select a state --</option>
+            {STATES.map((s) => (
+              <option key={s} value={s}>{s}</option>
+            ))}
+          </select>
+        </div>
+        <div>{renderElectionStatus()}</div>
       </div>
     </div>
   );
