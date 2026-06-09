@@ -91,6 +91,7 @@ function App() {
             <div className="glass-panel">
               <BallotCard
                 state={selectedState}
+                electionData={electionData}
                 electionName={electionData.name}
                 electionDate={electionData.date}
                 selections={selections}
@@ -110,20 +111,22 @@ function App() {
         </div>
       </header>
       <div className="app-body">
-        <div className="state-row">
-          <select
-            id="state-select"
-            className="state-select"
-            value={selectedState}
-            onChange={(e) => setSelectedState(e.target.value)}
-          >
-            <option value="">-- Select a state --</option>
-            {STATES.map((s) => (
-              <option key={s} value={s}>{s}</option>
-            ))}
-          </select>
+        <div className="app-content-wrapper">
+          <div className="state-row">
+            <select
+              id="state-select"
+              className="state-select"
+              value={selectedState}
+              onChange={(e) => setSelectedState(e.target.value)}
+            >
+              <option value="">-- Select a state --</option>
+              {STATES.map((s) => (
+                <option key={s} value={s}>{s}</option>
+              ))}
+            </select>
+          </div>
+          <div>{renderElectionStatus()}</div>
         </div>
-        <div>{renderElectionStatus()}</div>
       </div>
     </div>
   );
