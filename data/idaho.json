@@ -1,0 +1,49 @@
+{
+    "state": "Idaho",
+    "name": "General Election",
+    "date": "2026-11-03",
+    "ballot": [
+        {
+            "office": "U.S. Senator",
+            "candidates": [
+                "David Roth"
+            ]
+        },
+        {
+            "office": "Governor",
+            "candidates": [
+                "Terri Pickens"
+            ]
+        },
+        {
+            "office": "Lieutenant Governor",
+            "candidates": [
+                "Eric Myricks"
+            ]
+        },
+        {
+            "office": "Attorney General",
+            "candidates": [
+                "Lori Hickman"
+            ]
+        },
+        {
+            "office": "Secretary of State",
+            "candidates": [
+                "Shawn Keenan"
+            ]
+        },
+        {
+            "office": "Superintendent of Public Instruction",
+            "candidates": [
+                "Becky Sundin Mitchell"
+            ]
+        },
+        {
+            "office": "Treasurer",
+            "candidates": [
+                "Kevin Jones"
+            ]
+        }
+    ]
+}

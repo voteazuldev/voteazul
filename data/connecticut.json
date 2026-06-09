@@ -1,0 +1,14 @@
+{
+    "state": "Connecticut",
+    "name": "Democratic Primary",
+    "date": "2026-08-11",
+    "ballot": [
+        {
+            "office": "Governor",
+            "candidates": [
+                "Josh Elliott",
+                "Ned Lamont"
+            ]
+        }
+    ]
+}

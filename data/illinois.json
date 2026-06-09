@@ -1,0 +1,43 @@
+{
+    "state": "Illinois",
+    "name": "General Election",
+    "date": "2026-11-03",
+    "ballot": [
+        {
+            "office": "U.S. Senator",
+            "candidates": [
+                "Juliana Stratton"
+            ]
+        },
+        {
+            "office": "Governor / Lieutenant Governor",
+            "candidates": [
+                "JB Pritzker / Christian Mitchell"
+            ]
+        },
+        {
+            "office": "Attorney General",
+            "candidates": [
+                "Kwame Raoul"
+            ]
+        },
+        {
+            "office": "Secretary of State",
+            "candidates": [
+                "Alexi Giannoulias"
+            ]
+        },
+        {
+            "office": "Comptroller",
+            "candidates": [
+                "Margaret Croke"
+            ]
+        },
+        {
+            "office": "Treasurer",
+            "candidates": [
+                "Mike Frerichs"
+            ]
+        }
+    ]
+}
