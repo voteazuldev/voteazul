@@ -163,8 +163,8 @@ function BallotCard({ state, ballot, electionData, electionName, electionDate, s
         ctx.fillText(brandText, (1080 - brandWidth) / 2, y += footerH - 20);
 
         const link = document.createElement("a");
-        link.download = "my-ballot.jpeg";
-        link.href = canvas.toDataURL("image/jpeg", 0.9);
+        link.download = "my-endorsements.png";
+        link.href = canvas.toDataURL("image/png", 0.9);
         link.click();
     };
 
@@ -187,7 +187,7 @@ function BallotCard({ state, ballot, electionData, electionName, electionDate, s
                 </div>
             </div>
             <button className="ballot-download-btn" onClick={handleDownload}>
-                Download JPEG
+                Download PNG
             </button>
         </div>
     );

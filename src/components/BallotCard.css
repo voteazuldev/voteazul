@@ -76,9 +76,9 @@
 .ballot-download-btn {
   padding: 8px 18px;
   background: transparent;
-  border: 1px solid rgba(153, 204, 255, 0.4);
+  border: 1px solid rgba(0, 51, 102, 0.4);
   border-radius: 8px;
-  color: #99ccff;
+  color: #003366;
   font-size: 13px;
   font-weight: 600;
 }
