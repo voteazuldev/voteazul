@@ -2,12 +2,18 @@ import React from "react";
 import html2canvas from "html2canvas";
 import "./BallotCard.css";
 
-function BallotCard({ state, electionData, electionName, electionDate, selections }) {
+function BallotCard({ state, ballot, electionData, electionName, electionDate, selections }) {
     const formattedDate = new Date(electionDate + "T00:00:00").toLocaleDateString("en-US", {
         year: "numeric", month: "long", day: "numeric"
     });
 
     const handleDownload = () => {
+        const allSelected = ballot.every((item) => selections[item.office]);
+        if (!allSelected) {
+            alert("Please select a candidate for every office before downloading.");
+            return;
+        }
+
         const canvas = document.createElement("canvas");
         canvas.width = 1080;
         canvas.height = 1080;

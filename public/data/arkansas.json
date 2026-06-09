@@ -1,0 +1,25 @@
+{
+  "state": "Arkansas",
+  "name": "General Election",
+  "date": "2026-11-03",
+  "ballot": [
+    {
+      "office": "U.S. Senator",
+      "candidates": [
+        "Hallie Shoffner"
+      ]
+    },
+    {
+      "office": "Governor",
+      "candidates": [
+        "Fredrick Love"
+      ]
+    },
+    {
+      "office": "Secretary of State",
+      "candidates": [
+        "Kelly Grappe"
+      ]
+    }
+  ]
+}

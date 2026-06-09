@@ -4,16 +4,56 @@ import BallotForm from "./components/BallotForm";
 import './App.css'
 
 const STATES = [
-  "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado",
-  "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho",
-  "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana",
-  "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota",
-  "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada",
-  "New Hampshire", "New Jersey", "New Mexico", "New York",
-  "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon",
-  "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota",
-  "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington",
-  "West Virginia", "Wisconsin", "Wyoming"
+  "Alabama",
+  "Alaska",
+  "Arizona",
+  "Arkansas",
+  "California",
+  "Colorado",
+  "Connecticut",
+  "Delaware",
+  "Florida",
+  "Georgia",
+  "Hawaii",
+  "Idaho",
+  "Illinois",
+  "Indiana",
+  "Iowa",
+  "Kansas",
+  "Kentucky",
+  "Louisiana",
+  "Maine",
+  "Maryland",
+  "Massachusetts",
+  "Michigan",
+  "Minnesota",
+  "Mississippi",
+  "Missouri",
+  "Montana",
+  "Nebraska",
+  "Nevada",
+  "New Hampshire",
+  "New Jersey",
+  "New Mexico",
+  "New York",
+  "North Carolina",
+  "North Dakota",
+  "Ohio",
+  "Oklahoma",
+  "Oregon",
+  "Pennsylvania",
+  "Rhode Island",
+  "South Carolina",
+  "South Dakota",
+  "Tennessee",
+  "Texas",
+  "Utah",
+  "Vermont",
+  "Virginia",
+  "Washington",
+  "West Virginia",
+  "Wisconsin",
+  "Wyoming"
 ];
 
 function App() {
@@ -21,7 +61,7 @@ function App() {
   const [electionData, setElectionData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [selections, setSelections] = useState(null);
+  const [selections, setSelections] = useState({});
 
   useEffect(() => {
     if (!selectedState) return;
@@ -30,7 +70,7 @@ function App() {
     setLoading(true);
     setError(null);
     setElectionData(null);
-    setSelections(null);
+    setSelections({});
 
     fetch(`/data/${filename}.json`)
       .then((res) => {
@@ -76,27 +116,23 @@ function App() {
 
     return (
       <div>
-        <div className="election-badge">
-          <div className="election-badge-name">{name}</div>
-          <div className="election-badge-date">{formattedDate}</div>
-        </div>
         <div className="split-screen">
           <div className="glass-panel">
             <BallotForm
               ballot={ballot}
-              onSubmit={(selections) => setSelections(selections)}
+              onSelectionChange={(selections) => setSelections(selections)}
             />
           </div>
-          {selections &&
-            <div className="glass-panel">
-              <BallotCard
-                state={selectedState}
-                electionData={electionData}
-                electionName={electionData.name}
-                electionDate={electionData.date}
-                selections={selections}
-              />
-            </div>}
+          <div className="glass-panel">
+            <BallotCard
+              state={selectedState}
+              ballot={ballot}
+              electionData={electionData}
+              electionName={electionData.name}
+              electionDate={electionData.date}
+              selections={selections}
+            />
+          </div>
         </div>
       </div>
     );

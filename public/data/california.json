@@ -1,0 +1,58 @@
+{
+  "state": "California",
+  "name": "General Election",
+  "date": "2026-11-03",
+  "ballot": [
+    {
+      "office": "Governor",
+      "candidates": [
+        "Tom Steyer",
+        "Xavier Becerra"
+      ]
+    },
+    {
+      "office": "Lieutenant Governor",
+      "candidates": [
+        "Fiona Ma",
+        "Josh Fryday",
+        "Michael Tubbs"
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "candidates": [
+        "Rob Bonta"
+      ]
+    },
+    {
+      "office": "Secretary of State",
+      "candidates": [
+        "Shirley Weber"
+      ]
+    },
+    {
+      "office": "Treasurer",
+      "candidates": [
+        "Eleni Kounalakis"
+      ]
+    },
+    {
+      "office": "Controller",
+      "candidates": [
+        "Malia Cohen"
+      ]
+    },
+    {
+      "office": "Insurance Commissioner",
+      "candidates": [
+        "Jane Kim"
+      ]
+    },
+    {
+      "office": "Superintendent of Public Instruction",
+      "candidates": [
+        "Richard Barrera"
+      ]
+    }
+  ]
+}
