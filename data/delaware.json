@@ -1,0 +1,19 @@
+{
+    "state": "Delaware",
+    "name": "Democratic Primary",
+    "date": "2026-09-15",
+    "ballot": [
+        {
+            "office": "U.S. Senator",
+            "candidates": [
+                "Chris Coons"
+            ]
+        },
+        {
+            "office": "U.S. Representative",
+            "candidates": [
+                "Sarah McBride"
+            ]
+        }
+    ]
+}

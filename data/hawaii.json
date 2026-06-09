@@ -1,0 +1,26 @@
+{
+    "state": "Hawaii",
+    "name": "Democratic Primary",
+    "date": "2026-08-08",
+    "ballot": [
+        {
+            "office": "Governor",
+            "candidates": [
+                "Duke Bourgoin",
+                "George (Teva) Lucas-Tadeo",
+                "Josh Green",
+                "Lauren Kapoliahi'iaka Shim"
+            ]
+        },
+        {
+            "office": "Lieutenant Governor",
+            "candidates": [
+                "Della Au Belatti",
+                "Derek Kawakami",
+                "John Choi",
+                "Ku L. (Bobby) Cuadra",
+                "Sam Puletasi"
+            ]
+        }
+    ]
+}
