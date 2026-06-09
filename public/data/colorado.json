@@ -1,0 +1,30 @@
+{
+  "state": "Colorado",
+  "name": "Democratic Primary",
+  "date": "2026-06-30",
+  "ballot": [
+    {
+      "office": "Governor",
+      "candidates": [
+        "Michael Bennet",
+        "Phil Weiser"
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "candidates": [
+        "David Seligman",
+        "Hetal Doshi",
+        "Jena Griswold",
+        "Michael Dougherty"
+      ]
+    },
+    {
+      "office": "Secretary of State",
+      "candidates": [
+        "Amanda Gonzalez",
+        "Jessie Danielson"
+      ]
+    }
+  ]
+}
