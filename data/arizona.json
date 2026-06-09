@@ -1,0 +1,52 @@
+{
+  "state": "Arizona",
+  "name": "Democratic Primary Election",
+  "date": "2026-07-21",
+  "ballot": [
+    {
+      "office": "Governor",
+      "candidates": [
+        "Kaite Hobbds"
+      ]
+    },
+    {
+      "office": "Secretary of State",
+      "candidates": [
+        "Adrian Fontes"
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "candidates": [
+        "Kris Mayes"
+      ]
+    },
+    {
+      "office": "State Treasurer",
+      "candidates": [
+        "Nick Mansour"
+      ]
+    },
+    {
+      "office": "Superintendent of Public Instruction",
+      "candidates": [
+        "Brett Matthew Newby",
+        "Michael D. Butts",
+        "Teresa Leyba Ruiz"
+      ]
+    },
+    {
+      "office": "State Mine Inspector",
+      "candidates": [
+        "Brian Matlock"
+      ]
+    },
+    {
+      "office": "Corporation Commissioner",
+      "candidates": [
+        "Clara Pratte",
+        "Jonathon Hill"
+      ]
+    }
+  ]
+}

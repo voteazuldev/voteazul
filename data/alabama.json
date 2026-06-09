@@ -1,6 +1,14 @@
 {
   "state": "Alabama",
-  "name": null,
-  "date": null,
-  "ballot": []
+  "name": "Democratic Primary Runoff",
+  "date": "2026-06-16",
+  "ballot": [
+    {
+      "office": "U.S. Senator",
+      "candidates": [
+        "Dakarai Larriett",
+        "Everett Wess"
+      ]
+    }
+  ]
 }
