@@ -1,0 +1,35 @@
+{
+    "state": "Georgia",
+    "name": "Democratic Primary Runoff Election",
+    "date": "2026-06-16",
+    "ballot": [
+        {
+            "office": "Lieutenant Governor",
+            "candidates": [
+                "Josh McLaurin",
+                "Nabilah Parkes"
+            ]
+        },
+        {
+            "office": "Secretary of State",
+            "candidates": [
+                "Dana Barrett",
+                "Penny Brown Reynolds"
+            ]
+        },
+        {
+            "office": "Commissioner of Insurance",
+            "candidates": [
+                "DeAndre Mathis",
+                "Keisha Sean Waites"
+            ]
+        },
+        {
+            "office": "Commissioner of Labor",
+            "candidates": [
+                "Nikki Porcher",
+                "Michelle Michi Sanchez"
+            ]
+        }
+    ]
+}

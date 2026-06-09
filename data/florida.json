@@ -1,0 +1,34 @@
+{
+    "state": "Florida",
+    "name": "Democratic Primary Election",
+    "date": "2026-08-18",
+    "ballot": [
+        {
+            "office": "US Senator",
+            "candidates": [
+                "Angie Nixon",
+                "Alex Vindman"
+            ]
+        },
+        {
+            "office": "Governor",
+            "candidates": [
+                "David Jolly"
+            ]
+        },
+        {
+            "office": "Attorney General",
+            "candidates": [
+                "Jim Lewis",
+                "José Javier Rodríguez"
+            ]
+        },
+        {
+            "office": "Chief Financial Officer",
+            "candidates": [
+                "Annette Taddeo",
+                "Earle Ford"
+            ]
+        }
+    ]
+}
