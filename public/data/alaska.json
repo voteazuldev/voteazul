@@ -1,6 +1,31 @@
 {
   "state": "Alaska",
-  "name": "General Election",
+  "name": "Primary Election",
   "date": "2026-11-03",
-  "ballot": []
+  "ballot": [
+    {
+      "office": "U.S. Senator",
+      "candidates": [
+        "Carol Hafner",
+        "David Leslie",
+        "Mary Peltola"
+      ]
+    },
+    {
+      "office": "U.S. Representative",
+      "candidates": [
+        "Eric Hafner",
+        "John B. Williams",
+        "Matt Schultz",
+        "Yaquelin Reynoso"
+      ]
+    },
+    {
+      "office": "Governor / Lieutenant Governor",
+      "candidates": [
+        "Matt Claman / Sarah Skeel",
+        "Tom Begich / Julia Hnilicka"
+      ]
+    }
+  ]
 }
