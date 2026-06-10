@@ -1,0 +1,50 @@
+{
+    "state": "Massachusetts",
+    "name": "Democratic Primary",
+    "date": "2026-09-01",
+    "ballot": [
+        {
+            "office": "U.S. Senator",
+            "candidates": [
+                "Ed Markey",
+                "Seth Moulton"
+            ]
+        },
+        {
+            "office": "Governor",
+            "candidates": [
+                "Maura Healey"
+            ]
+        },
+        {
+            "office": "Lieutenant Governor",
+            "candidates": [
+                "Kim Driscoll"
+            ]
+        },
+        {
+            "office": "Attorney General",
+            "candidates": [
+                "Andrea Campbell"
+            ]
+        },
+        {
+            "office": "Secretary of the Commonwealth",
+            "candidates": [
+                "William F. Galvin"
+            ]
+        },
+        {
+            "office": "Treasurer and Receiver-General",
+            "candidates": [
+                "Deb Goldberg"
+            ]
+        },
+        {
+            "office": "State Auditor",
+            "candidates": [
+                "Diana DiZoglio"
+            ]
+        }
+    ]
+}
