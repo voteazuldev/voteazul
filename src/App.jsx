@@ -143,7 +143,7 @@ function App() {
       <header className="app-header">
         <div className="app-header-inner">
           <div className="app-header-brand">
-            <img src="/public/003366_99ccff_circle.svg" alt="VoteAzul logo" className="app-logo-icon" />
+            <img src="/003366_99ccff_circle.svg" alt="VoteAzul logo" className="app-logo-icon" />
             <div>
               <div className="app-logo">VoteAzul.com</div>
               <div className="app-tagline">Endorse your Candidates. Make a Difference.</div>
