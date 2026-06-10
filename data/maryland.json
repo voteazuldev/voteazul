@@ -1,0 +1,14 @@
+{
+  "state": "Maryland",
+  "name": "Democratic Primary",
+  "date": "2026-06-23",
+  "ballot": [
+    {
+      "office": "Governor",
+      "candidates": [
+        "Eric Felber",
+        "Wes Moore"
+      ]
+    }
+  ]
+}

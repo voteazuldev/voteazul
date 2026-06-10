@@ -1,0 +1,25 @@
+{
+    "state": "Indiana",
+    "name": "General Election",
+    "date": "2026-11-03",
+    "ballot": [
+        {
+            "office": "Secretary of State",
+            "candidates": [
+                "Beau Bayh"
+            ]
+        },
+        {
+            "office": "State Treasurer",
+            "candidates": [
+                "Coumba Kebe"
+            ]
+        },
+        {
+            "office": "State Auditor",
+            "candidates": [
+                "Jessica Bailey"
+            ]
+        }
+    ]
+}

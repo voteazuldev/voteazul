@@ -1,0 +1,31 @@
+{
+    "state": "Kansas",
+    "name": "Democratic Primary",
+    "date": "2026-08-04",
+    "ballot": [
+        {
+            "office": "U.S. Senator",
+            "candidates": [
+                "Adam Hamilton",
+                "Anne Parelkar",
+                "Christy Davis",
+                "Damon Anderson",
+                "Erik Murray",
+                "Jason Hart",
+                "Kevin Latz",
+                "Mike Soetaert",
+                "Noah Taylor",
+                "Patrick Schmidt",
+                "Sandy Spidel Neumann"
+            ]
+        },
+        {
+            "office": "Governor / Lieutenant Governor",
+            "candidates": [
+                "Cindy Holscher / Kelechi Ohaebosim",
+                "Curt Skoog / Jennifer Bacani McKenny",
+                "Ethan Corson / Renee Duxler"
+            ]
+        }
+    ]
+}
