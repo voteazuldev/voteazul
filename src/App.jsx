@@ -141,9 +141,28 @@ function App() {
   return (
     <div>
       <header className="app-header">
-        <div>
-          <div className="app-logo">VOTEAZUL</div>
-          <div className="app-tagline">Your voice. Your ballot. Your community.</div>
+        <div className="app-header-inner">
+          <div className="app-header-brand">
+            <img src="/public/003366_99ccff_circle.svg" alt="VoteAzul logo" className="app-logo-icon" />
+            <div>
+              <div className="app-logo">VoteAzul.com</div>
+              <div className="app-tagline">Endorse your Candidates. Make a Difference.</div>
+            </div>
+          </div>
+          <div className="app-header-socials">
+            <a href="https://instagram.com/voteazul" target="_blank" rel="noopener noreferrer">
+              <i className="ti ti-brand-instagram"></i>
+            </a>
+            <a href="https://bsky.app/profile/voteazul.bsky.social" target="_blank" rel="noopener noreferrer">
+              <i className="ti ti-brand-bluesky"></i>
+            </a>
+            <a href="https://facebook.com/profile.php?id=61590515677125" target="_blank" rel="noopener noreferrer">
+              <i className="ti ti-brand-facebook"></i>
+            </a>
+            <a href="https://threads.net/@voteazul" target="_blank" rel="noopener noreferrer">
+              <i className="ti ti-brand-threads"></i>
+            </a>
+          </div>
         </div>
       </header>
       <div className="app-body">
