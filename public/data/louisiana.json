@@ -1,0 +1,14 @@
+{
+    "state": "Louisiana",
+    "name": "Democratic Primary Runoff",
+    "date": "2026-06-27",
+    "ballot": [
+        {
+            "office": "U.S. Senator",
+            "candidates": [
+                "Gary Crockett",
+                "Jamie Davis"
+            ]
+        }
+    ]
+}
