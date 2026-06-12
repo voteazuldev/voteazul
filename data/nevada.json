@@ -1,0 +1,43 @@
+{
+  "state": "Nevada",
+  "name": "General Election",
+  "date": "2026-11-03",
+  "ballot": [
+    {
+      "office": "Governor",
+      "candidates": [
+        "Aaron Ford"
+      ]
+    },
+    {
+      "office": "Lieutenant Governor",
+      "candidates": [
+        "Sandra Jauregui"
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "candidates": [
+        "Nicole Cannizzaro"
+      ]
+    },
+    {
+      "office": "Secretary of State",
+      "candidates": [
+        "Cisco Aguilar"
+      ]
+    },
+    {
+      "office": "State Controller",
+      "candidates": [
+        "Michael MacDougall"
+      ]
+    },
+    {
+      "office": "State Treasurer",
+      "candidates": [
+        "Tya Mathis-Coleman"
+      ]
+    }
+  ]
+}

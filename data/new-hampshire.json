@@ -1,0 +1,22 @@
+{
+  "state": "New Hampshire",
+  "name": "Democratic Primary",
+  "date": "2026-09-08",
+  "ballot": [
+    {
+      "office": "U.S. Senator",
+      "candidates": [
+        "Chris Pappas",
+        "David Jarvis",
+        "Jared Sullivan",
+        "Karishma Manzur"
+      ]
+    },
+    {
+      "office": "Governor",
+      "candidates": [
+        "Cinde Warmington"
+      ]
+    }
+  ]
+}
