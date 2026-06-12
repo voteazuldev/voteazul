@@ -1,0 +1,38 @@
+{
+  "state": "Nebraska",
+  "name": "General Election",
+  "date": "2026-11-03",
+  "ballot": [
+    {
+      "office": "U.S. Senator",
+      "candidates": [
+        "Cindy Burbank",
+        "Dan Osborn"
+      ]
+    },
+    {
+      "office": "Governor",
+      "candidates": [
+        "Lynne Walz"
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "candidates": [
+        "Jocelyn Brasher"
+      ]
+    },
+    {
+      "office": "Secretary of State",
+      "candidates": [
+        "Sarah Slattery"
+      ]
+    },
+    {
+      "office": "State Treasurer",
+      "candidates": [
+        "Daniel Ebers"
+      ]
+    }
+  ]
+}
