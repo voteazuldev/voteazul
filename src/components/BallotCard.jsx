@@ -157,7 +157,7 @@ function BallotCard({ state, ballot, electionData, electionName, electionDate, s
         // Load logo and draw branded footer
         const logo = new Image();
         logo.crossOrigin = "anonymous";
-        logo.src = "/003366_99ccff_circle.svg";
+        logo.src = "/vote_azul_logo.svg";
 
         logo.onload = () => {
             const logoSize = 56;
@@ -216,7 +216,7 @@ function BallotCard({ state, ballot, electionData, electionName, electionDate, s
                         <div>
                             <div className="ballot-card-brand-name">VoteAzul.com</div>
                         </div>
-                        <img src="/003366_99ccff_circle.svg" alt="VoteAzul" className="ballot-card-logo" />
+                        <img src="/vote_azul_logo.svg" alt="VoteAzul" className="ballot-card-logo" />
                         <div>
                             <div className="ballot-card-brand-tagline">Endorse your Candidates.</div>
                             <div className="ballot-card-brand-tagline">Make a Difference.</div>
@@ -225,7 +225,7 @@ function BallotCard({ state, ballot, electionData, electionName, electionDate, s
                 </div>
             </div>
             <button className="ballot-download-btn" onClick={handleDownload}>
-                Download PNG
+                Download Endorsements
             </button>
         </div>
     );

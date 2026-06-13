@@ -143,7 +143,7 @@ function App() {
       <header className="app-header">
         <div className="app-header-inner">
           <div className="app-header-brand">
-            <img src="/003366_99ccff_circle.svg" alt="VoteAzul logo" className="app-logo-icon" />
+            <img src="/vote_azul_logo.svg" alt="VoteAzul logo" className="app-logo-icon" />
             <div>
               <div className="app-logo">VoteAzul.com</div>
               <div className="app-tagline">Endorse your Candidates.</div>
@@ -160,7 +160,7 @@ function App() {
             <a href="https://facebook.com/profile.php?id=61590515677125" target="_blank" rel="noopener noreferrer">
               <i className="ti ti-brand-facebook"></i>
             </a>
-            <a href="https://threads.net/@voteazul" target="_blank" rel="noopener noreferrer">
+            <a href="https://threads.com/@voteazul" target="_blank" rel="noopener noreferrer">
               <i className="ti ti-brand-threads"></i>
             </a>
           </div>
