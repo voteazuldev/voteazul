@@ -1,0 +1,34 @@
+{
+  "state": "Tennessee",
+  "name": "Democratic Primary",
+  "date": "2026-08-06",
+  "ballot": [
+    {
+      "office": "U.S. Senator",
+      "candidates": [
+        "Civil Miller-Watkins",
+        "Diana Onyejiaka",
+        "Kevin Lee McCants",
+        "Maria Brewer",
+        "Marquita Bradshaw"
+      ]
+    },
+    {
+      "office": "Governor",
+      "candidates": [
+        "Adam Kurtz",
+        "Carnita Atwater",
+        "Jerri Green",
+        "Kevin Lee McCants",
+        "Tim Cyr"
+      ]
+    },
+    {
+      "office": "Justice Retention",
+      "candidates": [
+        "No",
+        "Yes"
+      ]
+    }
+  ]
+}
