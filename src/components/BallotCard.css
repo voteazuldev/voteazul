@@ -113,3 +113,82 @@
   color: #99ccff;
   margin-top: 2px;
 }
+
+.ballot-card-download {
+  width: 1080px;
+  height: 1080px;
+  border-radius: 0 !important;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.ballot-card-download .ballot-card-eyebrow {
+  font-size: 26px;
+  letter-spacing: 3px;
+}
+
+.ballot-card-download .ballot-card-title {
+  font-size: 48px;
+  margin-top: 12px;
+}
+
+.ballot-card-download .ballot-card-date {
+  font-size: 28px;
+  margin-top: 8px;
+}
+
+.ballot-card-download .ballot-card-row {
+  margin-bottom: 26px;
+}
+
+.ballot-card-download .ballot-card-candidate {
+  font-size: 40px;
+}
+
+.ballot-card-download .ballot-card-office {
+  font-size: 20px;
+}
+
+.ballot-card-download .ballot-card-logo {
+  height: 64px;
+}
+
+.ballot-card-download .ballot-card-brand-name {
+  font-size: 32px;
+}
+
+.ballot-card-download .ballot-card-brand-tagline {
+  font-size: 18px;
+}
+
+.ballot-card-download .ballot-card-wordmark {
+  justify-content: flex-start;
+  margin-top: 32px;
+}
+
+.ballot-card-candidates {
+  display: flex;
+  flex-direction: column;
+}
+
+.ballot-card-download .ballot-card-candidates-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 60px;
+  row-gap: 0;
+}
+
+.ballot-card-download .ballot-card-candidates-grid .ballot-card-row {
+  margin-bottom: 36px;
+}
+
+.ballot-card-download .ballot-card-candidates-grid .ballot-card-candidate {
+  font-size: 32px;
+}
+
+.ballot-card-download .ballot-card-candidates-grid .ballot-card-office {
+  font-size: 16px;
+}
