@@ -146,7 +146,8 @@ function App() {
             <img src="/003366_99ccff_circle.svg" alt="VoteAzul logo" className="app-logo-icon" />
             <div>
               <div className="app-logo">VoteAzul.com</div>
-              <div className="app-tagline">Endorse your Candidates. Make a Difference.</div>
+              <div className="app-tagline">Endorse your Candidates.</div>
+              <div className="app-tagline">Make a Difference.</div>
             </div>
           </div>
           <div className="app-header-socials">

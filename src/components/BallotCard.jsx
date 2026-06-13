@@ -213,10 +213,13 @@ function BallotCard({ state, ballot, electionData, electionName, electionDate, s
                 ))}
                 <div className="ballot-card-footer">
                     <div className="ballot-card-wordmark">
-                        <img src="/003366_99ccff_circle.svg" alt="VoteAzul" className="ballot-card-logo" />
                         <div>
                             <div className="ballot-card-brand-name">VoteAzul.com</div>
-                            <div className="ballot-card-brand-tagline">Endorse your Candidates. Make a Difference.</div>
+                        </div>
+                        <img src="/003366_99ccff_circle.svg" alt="VoteAzul" className="ballot-card-logo" />
+                        <div>
+                            <div className="ballot-card-brand-tagline">Endorse your Candidates.</div>
+                            <div className="ballot-card-brand-tagline">Make a Difference.</div>
                         </div>
                     </div>
                 </div>
