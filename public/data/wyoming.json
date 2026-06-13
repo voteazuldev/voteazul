@@ -1,0 +1,27 @@
+{
+  "state": "Wisconsin",
+  "name": "Democratic Primary",
+  "date": "2026-08-19",
+  "ballot": [
+    {
+      "office": "U.S. Senator",
+      "candidates": [
+        "Billy Benavidez",
+        "James W. Byrd"
+      ]
+    },
+    {
+      "office": "U.S. Representative",
+      "candidates": [
+        "Elena del Real",
+        "Lisa F. Kinney"
+      ]
+    },
+    {
+      "office": "Governor",
+      "candidates": [
+        "Ken Casner"
+      ]
+    }
+  ]
+}
