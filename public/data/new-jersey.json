@@ -1,0 +1,13 @@
+{
+  "state": "New Jersey",
+  "name": "General Election",
+  "date": "2026-11-03",
+  "ballot": [
+    {
+      "office": "U.S. Senator",
+      "candidates": [
+        "Cory Booker"
+      ]
+    }
+  ]
+}

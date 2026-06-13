@@ -1,0 +1,25 @@
+{
+  "state": "North Dakota",
+  "name": "General Election",
+  "date": "2026-11-03",
+  "ballot": [
+    {
+      "office": "U.S. Representative",
+      "candidates": [
+        "Trygve Hammer"
+      ]
+    },
+    {
+      "office": "Secretary of State",
+      "candidates": [
+        "Ryan Braunberger"
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "candidates": [
+        "Tim Lamb"
+      ]
+    }
+  ]
+}

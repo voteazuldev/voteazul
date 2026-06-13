@@ -1,0 +1,19 @@
+{
+  "state": "North Carolina",
+  "name": "General Election",
+  "date": "2026-11-03",
+  "ballot": [
+    {
+      "office": "U.S. Senator",
+      "candidates": [
+        "Roy Cooper"
+      ]
+    },
+    {
+      "office": "Supreme Court Seat 1",
+      "candidates": [
+        "Anita Earls"
+      ]
+    }
+  ]
+}

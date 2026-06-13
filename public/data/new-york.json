@@ -1,0 +1,21 @@
+{
+  "state": "New York",
+  "name": "Democratic Primary",
+  "date": "2026-06-23",
+  "ballot": [
+    {
+      "office": "Governor / Lieutenant Governor",
+      "candidates": [
+        "Kathy Hochul / Adrienne Adams"
+      ]
+    },
+    {
+      "office": "State Comptroller",
+      "candidates": [
+        "Drew Warshaw",
+        "Raj Goyle",
+        "Tom DiNapoli"
+      ]
+    }
+  ]
+}
