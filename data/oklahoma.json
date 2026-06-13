@@ -1,0 +1,52 @@
+{
+  "state": "Oklahoma",
+  "name": "Democratic Primary",
+  "date": "2026-06-16",
+  "ballot": [
+    {
+      "office": "U.S. Senator",
+      "candidates": [
+        "Ervin Yen",
+        "Jim Priest",
+        "N'Kiyla \"Jasmine\" Thomas",
+        "R.O. Joe Cassity Jr.",
+        "Troy Green"
+      ]
+    },
+    {
+      "office": "Governor",
+      "candidates": [
+        "Arya Azma",
+        "Connie Johnson",
+        "Cyndi Munson"
+      ]
+    },
+    {
+      "office": "Lieutenant Governor",
+      "candidates": [
+        "Kelly Forbes"
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "candidates": [
+        "Nick Coffey"
+      ]
+    },
+    {
+      "office": "Superintendent of Public Instruction",
+      "candidates": [
+        "Craig McVay",
+        "Jennettie Marshall"
+      ]
+    },
+    {
+      "office": "Corporate Commission",
+      "candidates": [
+        "Donald Clytus",
+        "Harold Spradling",
+        "Rhonda Eastman"
+      ]
+    }
+  ]
+}

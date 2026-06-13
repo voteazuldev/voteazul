@@ -1,0 +1,55 @@
+{
+  "state": "South Carolina",
+  "name": "General Election",
+  "date": "2026-11-03",
+  "ballot": [
+    {
+      "office": "U.S. Senator",
+      "candidates": [
+        "Annie Andrews"
+      ]
+    },
+    {
+      "office": "Governor",
+      "candidates": [
+        "Jermaine Johnson"
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "candidates": [
+        "Richard Hricik"
+      ]
+    },
+    {
+      "office": "Secretary of State",
+      "candidates": [
+        "Jason Belton"
+      ]
+    },
+    {
+      "office": "State Treasurer",
+      "candidates": [
+        "Vincent Coe"
+      ]
+    },
+    {
+      "office": "State Comptroller",
+      "candidates": [
+        "Tiffany Boozer"
+      ]
+    },
+    {
+      "office": "Superintendent of Education",
+      "candidates": [
+        "Sylvia Wright"
+      ]
+    },
+    {
+      "office": "Commissioner of Agriculture",
+      "candidates": [
+        "DeShawn Blanding"
+      ]
+    }
+  ]
+}

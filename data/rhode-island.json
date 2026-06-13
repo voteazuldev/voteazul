@@ -1,0 +1,54 @@
+{
+  "state": "Rhode Island",
+  "name": "Democratic Primary",
+  "date": "2026-09-09",
+  "ballot": [
+    {
+      "office": "U.S. Senator",
+      "candidates": [
+        "Connor Burbridge",
+        "Jack Reed"
+      ]
+    },
+    {
+      "office": "Governor",
+      "candidates": [
+        "Dan McKee",
+        "Gregory Stevens",
+        "Helena Foulkes",
+        "Wil Gregersen"
+      ]
+    },
+    {
+      "office": "Lieutenant Governor",
+      "candidates": [
+        "Cynthia Armour Coyne",
+        "Fred McLin III",
+        "Sabina Matos",
+        "Sue AnderBois",
+        "Xay Khamsyvoravong"
+      ]
+    },
+        {
+      "office": "Secretary of State",
+      "candidates": [
+        "Gregg Amore"
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "candidates": [
+        "Jason Knight",
+        "Joseph J. Solomon Jr.",
+        "Keith Hoffmann",
+        "Kimberly Ahern"
+      ]
+    },
+    {
+      "office": "Treasurer",
+      "candidates": [
+        "James Diossa"
+      ]
+    }
+  ]
+}

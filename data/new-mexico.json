@@ -1,0 +1,49 @@
+{
+  "state": "New Mexico",
+  "name": "General Election",
+  "date": "2026-11-03",
+  "ballot": [
+    {
+      "office": "U.S. Senator",
+      "candidates": [
+        "Ben Ray Luján"
+      ]
+    },
+    {
+      "office": "Governor / Lieutenant Governor",
+      "candidates": [
+        "Deb Haaland / Maggie Toulouse"
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "candidates": [
+        "Raúl Torrez"
+      ]
+    },
+    {
+      "office": "Secretary of State",
+      "candidates": [
+        "Amanda López Askin"
+      ]
+    },
+    {
+      "office": "Commissioner of Public Lands",
+      "candidates": [
+        "Juan Sanchez"
+      ]
+    },
+    {
+      "office": "State Treasurer",
+      "candidates": [
+        "Laura Montoya"
+      ]
+    },
+    {
+      "office": "State Auditor",
+      "candidates": [
+        "Joseph Maestas"
+      ]
+    }
+  ]
+}

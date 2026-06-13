@@ -1,0 +1,25 @@
+{
+  "state": "Oregon",
+  "name": "General Election",
+  "date": "2026-11-03",
+  "ballot": [
+    {
+      "office": "U.S. Senator",
+      "candidates": [
+        "Jeff Merkley"
+      ]
+    },
+    {
+      "office": "Governor",
+      "candidates": [
+        "Tina Kotek"
+      ]
+    },
+    {
+      "office": "Commissioner of Labor",
+      "candidates": [
+        "Christina Stephenson"
+      ]
+    }
+  ]
+}

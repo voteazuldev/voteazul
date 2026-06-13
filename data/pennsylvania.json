@@ -1,0 +1,13 @@
+{
+  "state": "Pennsylvania",
+  "name": "General Election",
+  "date": "2026-11-03",
+  "ballot": [
+    {
+      "office": "Governor",
+      "candidates": [
+        "Josh Shapiro"
+      ]
+    }
+  ]
+}

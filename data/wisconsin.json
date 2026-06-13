@@ -1,0 +1,40 @@
+{
+  "state": "Wisconsin",
+  "name": "Democratic Primary",
+  "date": "2026-08-11",
+  "ballot": [
+    {
+      "office": "Governor",
+      "candidates": [
+        "David Crowley",
+        "Francesca Hong",
+        "Joel Brennan",
+        "Kelda Roys",
+        "Kirk Bangstad",
+        "Mandela Barnes",
+        "Missy Hughes",
+        "Sara Rodriguez"
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "candidates": [
+        "Josh Kaul"
+      ]
+    },
+    {
+      "office": "Secretary of State",
+      "candidates": [
+        "Eileen Newcomer",
+        "JoCasta Zamarripa"
+      ]
+    },
+    {
+      "office": "State Treasurer",
+      "candidates": [
+        "Dylan Helmenstine",
+        "Yee Leng Xiong"
+      ]
+    }
+  ]
+}
