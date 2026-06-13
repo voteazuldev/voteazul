@@ -67,7 +67,7 @@ function BallotCard({ state, ballot, electionData, electionName, electionDate, s
                         <div>
                             <div className="ballot-card-brand-name">VoteAzul.com</div>
                         </div>
-                        <img src="/public/vote_azul_logo.svg" alt="VoteAzul" className="ballot-card-logo" />
+                        <img src="/vote_azul_logo.svg" alt="VoteAzul" className="ballot-card-logo" />
                         <div>
                             <div className="ballot-card-brand-tagline">Endorse your Candidates.</div>
                             <div className="ballot-card-brand-tagline">Make a Difference.</div>
