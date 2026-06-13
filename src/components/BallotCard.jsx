@@ -154,18 +154,47 @@ function BallotCard({ state, ballot, electionData, electionName, electionDate, s
         ctx.lineTo(1080 - pad, y);
         ctx.stroke();
 
-        // Brand line
-        ctx.font = "500 28px Inter, sans-serif";
-        ctx.fillStyle = "#99ccff";
-        ctx.letterSpacing = "1px";
-        const brandText = "Make a difference at VoteAzul.com";
-        const brandWidth = ctx.measureText(brandText).width;
-        ctx.fillText(brandText, (1080 - brandWidth) / 2, y += footerH - 20);
+        // Load logo and draw branded footer
+        const logo = new Image();
+        logo.crossOrigin = "anonymous";
+        logo.src = "/003366_99ccff_circle.svg";
 
-        const link = document.createElement("a");
-        link.download = "my-endorsements.png";
-        link.href = canvas.toDataURL("image/png", 0.9);
-        link.click();
+        logo.onload = () => {
+            const logoSize = 56;
+            const brandY = y + 30;
+
+            // Brand text (right-aligned, stacked)
+            ctx.font = "700 32px Inter, sans-serif";
+            ctx.fillStyle = "#99ccff";
+            ctx.letterSpacing = "1px";
+            const brandName = "VoteAzul.com";
+            const brandNameWidth = ctx.measureText(brandName).width;
+
+            ctx.font = "400 20px Inter, sans-serif";
+            const taglineText = "Endorse your Candidates. Make a Difference.";
+            const taglineWidth = ctx.measureText(taglineText).width;
+
+            const textBlockWidth = Math.max(brandNameWidth, taglineWidth);
+            const textX = 1080 - pad - textBlockWidth;
+            const logoX = textX - logoSize - 16;
+
+            ctx.drawImage(logo, logoX, brandY, logoSize, logoSize);
+
+            ctx.font = "700 32px Inter, sans-serif";
+            ctx.fillStyle = "#99ccff";
+            ctx.letterSpacing = "1px";
+            ctx.fillText(brandName, textX, brandY + 30);
+
+            ctx.font = "400 20px Inter, sans-serif";
+            ctx.fillStyle = "rgba(153, 204, 255, 0.6)";
+            ctx.letterSpacing = "0.5px";
+            ctx.fillText(taglineText, textX, brandY + 56);
+
+            const link = document.createElement("a");
+            link.download = "my-endorsements.png";
+            link.href = canvas.toDataURL("image/png");
+            link.click();
+        };
     };
 
     return (
@@ -183,7 +212,13 @@ function BallotCard({ state, ballot, electionData, electionName, electionDate, s
                     </div>
                 ))}
                 <div className="ballot-card-footer">
-                    <div className="ballot-card-brand">Make a difference at VoteAzul.com</div>
+                    <div className="ballot-card-wordmark">
+                        <img src="/003366_99ccff_circle.svg" alt="VoteAzul" className="ballot-card-logo" />
+                        <div>
+                            <div className="ballot-card-brand-name">VoteAzul.com</div>
+                            <div className="ballot-card-brand-tagline">Endorse your Candidates. Make a Difference.</div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <button className="ballot-download-btn" onClick={handleDownload}>

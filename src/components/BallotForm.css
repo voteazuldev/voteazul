@@ -52,3 +52,27 @@
 .ballot-submit-btn:hover {
   background: #004488;
 }
+
+.ballot-card-wordmark {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ballot-card-logo {
+  height: 36px;
+  width: auto;
+}
+
+.ballot-card-brand-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: #99ccff;
+  letter-spacing: 0.5px;
+}
+
+.ballot-card-brand-tagline {
+  font-size: 11px;
+  color: rgba(153, 204, 255, 0.55);
+  margin-top: 2px;
+}
