@@ -87,6 +87,15 @@ function App() {
       });
   }, [selectedState]);
 
+  useEffect(() => {
+    const isInstagramBrowser = /Instagram/i.test(navigator.userAgent);
+    if (isInstagramBrowser) {
+      alert(
+        "Heads up: Instagram's browser doesn't support downloading images. To save your endorsement image later, please open this page in your phone's browser (tap the ••• menu and choose 'Open in Browser')."
+      );
+    }
+  }, []);
+
   const renderElectionStatus = () => {
     if (loading) return <p>Loading...</p>;
     if (error) return <p>No upcoming election data for this state. Check back later.</p>;
