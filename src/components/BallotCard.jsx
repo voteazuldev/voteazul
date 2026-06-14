@@ -7,6 +7,10 @@ function BallotCard({ state, ballot, electionData, electionName, electionDate, s
         year: "numeric", month: "long", day: "numeric"
     });
 
+    const isMobile = () => {
+        return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    };
+
     const handleDownload = async () => {
         const allSelected = ballot.every((item) => selections[item.office]);
         if (!allSelected) {
@@ -19,17 +23,17 @@ function BallotCard({ state, ballot, electionData, electionName, electionDate, s
         clone.removeAttribute("id");
         clone.classList.add("ballot-card-download");
 
-        clone.style.position = "fixed";
-        clone.style.top = "-9999px";
-        clone.style.left = "-9999px";
-
-        document.body.appendChild(clone);
-
         const entries = Object.entries(selections);
         if (entries.length > 6) {
             const candidatesEl = clone.querySelector(".ballot-card-candidates");
             candidatesEl.classList.add("ballot-card-candidates-grid");
         }
+
+        clone.style.position = "fixed";
+        clone.style.top = "-9999px";
+        clone.style.left = "-9999px";
+
+        document.body.appendChild(clone);
 
         const canvas = await html2canvas(clone, {
             width: 1080,
@@ -40,10 +44,28 @@ function BallotCard({ state, ballot, electionData, electionName, electionDate, s
 
         document.body.removeChild(clone);
 
-        const link = document.createElement("a");
-        link.download = "my-endorsements.png";
-        link.href = canvas.toDataURL("image/png");
-        link.click();
+        canvas.toBlob(async (blob) => {
+            const file = new File([blob], "my-endorsements.png", { type: "image/png" });
+
+            if (isMobile() && navigator.canShare && navigator.canShare({ files: [file] })) {
+                try {
+                    await navigator.share({
+                        files: [file],
+                        title: "My Endorsements",
+                    });
+                    return;
+                } catch (err) {
+                    // user cancelled or share failed, fall through to download
+                }
+            }
+
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement("a");
+            link.download = "my-endorsements.png";
+            link.href = url;
+            link.click();
+            URL.revokeObjectURL(url);
+        }, "image/png");
     };
 
     return (
