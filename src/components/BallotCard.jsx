@@ -7,6 +7,10 @@ function BallotCard({ state, ballot, electionData, electionName, electionDate, s
         year: "numeric", month: "long", day: "numeric"
     });
 
+    const isInstagramBrowser = () => {
+        return /Instagram/i.test(navigator.userAgent);
+    };
+
     const isMobile = () => {
         return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
     };
@@ -15,6 +19,13 @@ function BallotCard({ state, ballot, electionData, electionName, electionDate, s
         const allSelected = ballot.every((item) => selections[item.office]);
         if (!allSelected) {
             alert("Please select a candidate for every office before downloading.");
+            return;
+        }
+
+        if (isInstagramBrowser()) {
+            alert(
+                "To download your image, please open this page in your phone's browser (tap the ••• menu and choose 'Open in Browser')."
+            );
             return;
         }
 
