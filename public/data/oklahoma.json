@@ -6,17 +6,16 @@
     {
       "office": "U.S. Senator",
       "candidates": [
-        "Ervin Yen",
+        "Ervin Stone Yen",
         "Jim Priest",
-        "N'Kiyla \"Jasmine\" Thomas",
+        "N'Kiyla Jasmine Thomas",
         "R.O. Joe Cassity Jr.",
-        "Troy Green"
+        "Troy W. Green"
       ]
     },
     {
       "office": "Governor",
       "candidates": [
-        "Arya Azma",
         "Connie Johnson",
         "Cyndi Munson"
       ]
@@ -41,10 +40,22 @@
       ]
     },
     {
-      "office": "Corporate Commission",
+      "office": "Commissioner of Labor",
       "candidates": [
-        "Donald Clytus",
-        "Harold Spradling",
+        "Kevin Dawson"
+      ]
+    },
+    {
+      "office": "Insurance Commissioner",
+      "candidates": [
+        "Craig MacIntyre"
+      ]
+    },
+    {
+      "office": "Corporation Commissioner",
+      "candidates": [
+        "Donald Anthony Clytus",
+        "Harold D. Spradling",
         "Rhonda Eastman"
       ]
     }
