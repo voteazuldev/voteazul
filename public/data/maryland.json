@@ -4,10 +4,22 @@
   "date": "2026-06-23",
   "ballot": [
     {
-      "office": "Governor",
+      "office": "Governor / Lieutenant Governor",
       "candidates": [
-        "Eric Felber",
-        "Wes Moore"
+        "Eric Felber / LaTrece Hawkins Lytes",
+        "Wes Moore / Aruna Miller"
+      ]
+    },
+    {
+      "office": "Comptroller",
+      "candidates": [
+        "Brooke Elizabeth Lierman"
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "candidates": [
+        "Anthony G. Brown"
       ]
     }
   ]
