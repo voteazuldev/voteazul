@@ -4,10 +4,30 @@
   "date": "2026-06-30",
   "ballot": [
     {
+      "office": "U.S. Senator",
+      "candidates": [
+        "John Hickenlooper",
+        "Julie Gonzales"
+      ]
+    },
+    {
       "office": "Governor",
       "candidates": [
         "Michael Bennet",
         "Phil Weiser"
+      ]
+    },
+    {
+      "office": "Secretary of State",
+      "candidates": [
+        "Amanda Gonzalez",
+        "Jessie Danielson"
+      ]
+    },
+    {
+      "office": "State Treasurer",
+      "candidates": [
+        "Jeff Bridges"
       ]
     },
     {
@@ -17,13 +37,6 @@
         "Hetal Doshi",
         "Jena Griswold",
         "Michael Dougherty"
-      ]
-    },
-    {
-      "office": "Secretary of State",
-      "candidates": [
-        "Amanda Gonzalez",
-        "Jessie Danielson"
       ]
     }
   ]
