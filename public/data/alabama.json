@@ -2,5 +2,54 @@
   "state": "Alabama",
   "name": "General Election",
   "date": "2026-11-03",
-  "ballot": []
+  "ballot": [
+    {
+      "office": "U.S. Senator",
+      "candidates": [
+        "Everett Wess"
+      ]
+    },
+    {
+      "office": "Governor",
+      "candidates": [
+        "Doug Jones"
+      ]
+    },
+    {
+      "office": "Lieutenant Governor",
+      "candidates": [
+        "Phillip Ensler"
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "candidates": [
+        "Jeff McLaughlin"
+      ]
+    },
+    {
+      "office": "Secretary of State",
+      "candidates": [
+        "Wayne Rogers"
+      ]
+    },
+    {
+      "office": "State Treasurer",
+      "candidates": [
+        "Rosilyn Houston"
+      ]
+    },
+    {
+      "office": "State Auditor",
+      "candidates": [
+        "Violet Edwards"
+      ]
+    },
+    {
+      "office": "Commissioner of Agriculture and Industries",
+      "candidates": [
+        "Ron Sparks"
+      ]
+    }
+  ]
 }

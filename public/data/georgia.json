@@ -2,5 +2,72 @@
     "state": "Georgia",
     "name": "General Election",
     "date": "2026-11-03",
-    "ballot": []
+    "ballot": [
+        {
+            "office": "U.S. Senator",
+            "candidates": [
+                "Jon Ossoff"
+            ]
+        },
+        {
+            "office": "Governor",
+            "candidates": [
+                "Keisha Lance Bottoms"
+            ]
+        },
+        {
+            "office": "Lieutenant Governor",
+            "candidates": [
+                "Josh McLaurin"
+            ]
+        },
+        {
+            "office": "Attorney General",
+            "candidates": [
+                "Tanya Miller"
+            ]
+        },
+        {
+            "office": "Secretary of State",
+            "candidates": [
+                "Penny Reynolds"
+            ]
+        },
+        {
+            "office": "Insurance Commissioner",
+            "candidates": [
+                "Keisha Sean Waites"
+            ]
+        },
+        {
+            "office": "Labor Commissioner",
+            "candidates": [
+                "Nikki Porcher"
+            ]
+        },
+        {
+            "office": "Superintendent of Schools",
+            "candidates": [
+                "Lydia Powell"
+            ]
+        },
+        {
+            "office": "Agriculture Commissioner",
+            "candidates": [
+                "Katherine Juhan-Arnold"
+            ]
+        },
+        {
+            "office": "Public Service Commission 3",
+            "candidates": [
+                "Peter Hubbard"
+            ]
+        },
+        {
+            "office": "Public Service Commission 5",
+            "candidates": [
+                "Shelia Edwards"
+            ]
+        }
+    ]
 }
