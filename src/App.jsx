@@ -169,9 +169,6 @@ function App() {
             <a href="https://facebook.com/profile.php?id=61590515677125" target="_blank" rel="noopener noreferrer">
               <i className="ti ti-brand-facebook"></i>
             </a>
-            <a href="https://threads.com/@voteazul" target="_blank" rel="noopener noreferrer">
-              <i className="ti ti-brand-threads"></i>
-            </a>
           </div>
         </div>
       </header>
