@@ -1,7 +1,7 @@
 {
   "state": "New York",
-  "name": "Democratic Primary",
-  "date": "2026-06-23",
+  "name": "General Election",
+  "date": "2026-11-03",
   "ballot": [
     {
       "office": "Governor / Lieutenant Governor",
@@ -12,8 +12,6 @@
     {
       "office": "State Comptroller",
       "candidates": [
-        "Drew Warshaw",
-        "Raj Goyle",
         "Thomas P. DiNapoli"
       ]
     },

@@ -13,18 +13,43 @@
                 "Erik Murray",
                 "Jason Hart",
                 "Kevin Latz",
-                "Mike Soetaert",
+                "Michael \"Mike\" Soetaert",
                 "Noah Taylor",
-                "Patrick Schmidt",
+                "Patrick C. Schmidt",
                 "Sandy Spidel Neumann"
             ]
         },
         {
             "office": "Governor / Lieutenant Governor",
             "candidates": [
-                "Cindy Holscher / Kelechi Ohaebosim",
-                "Curt Skoog / Jennifer Bacani McKenny",
+                "Cindy Holscher / KC Ohaebosim",
+                "Curt Skoog / Jennifer Bacani McKenney",
                 "Ethan Corson / Renee Duxler"
+            ]
+        },
+        {
+            "office": "Secretary of State",
+            "candidates": [
+                "Jennifer Day",
+                "Samuel Lane"
+            ]
+        },
+        {
+            "office": "Attorney General",
+            "candidates": [
+                "Chris Mann"
+            ]
+        },
+        {
+            "office": "State Treasurer",
+            "candidates": [
+                "Juan C. Luengo"
+            ]
+        },
+        {
+            "office": "commissioner of Insurance",
+            "candidates": [
+                "Dinah Sykes"
             ]
         }
     ]

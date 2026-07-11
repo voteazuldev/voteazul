@@ -1,6 +1,54 @@
 {
   "state": "Vermont",
-  "name": "",
-  "date": "",
-  "ballot": []
+  "name": "Democratic Primary",
+  "date": "2026-08-11",
+  "ballot": [
+    {
+      "office": "U.S. Representative",
+      "candidates": [
+        "Becca Balint"
+      ]
+    },
+    {
+      "office": "Governor",
+      "candidates": [
+        "Amanda Janoo",
+        "Aly Richards"
+      ]
+    },
+    {
+      "office": "Lieutenant Governor",
+      "candidates": [
+        "Esther Charlestin",
+        "Molly Gray",
+        "Ryan McLaren"
+      ]
+    },
+    {
+      "office": "State Treasurer",
+      "candidates": [
+        "Mike Pieciak"
+      ]
+    },
+    {
+      "office": "Secretary of State",
+      "candidates": [
+        "Sarah Copeland Hanzas"
+      ]
+    },
+    {
+      "office": "Auditor of Accounts",
+      "candidates": [
+        "Dan Towle",
+        "Nicholas Graeter",
+        "Tim Ashe"
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "candidates": [
+        "Charity R. Clark"
+      ]
+    }
+  ]
 }
