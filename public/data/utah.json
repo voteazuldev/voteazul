@@ -1,6 +1,14 @@
 {
   "state": "Utah",
-  "name": "",
-  "date": "",
-  "ballot": []
+  "name": "General Election",
+  "date": "2026-11-03",
+  "ballot": [
+    {
+      "office": "House Bill 267 Referendum",
+      "candidates": [
+        "Yes - Approve HB 267",
+        "No - Repeal HB 267"
+      ]
+    }
+  ]
 }

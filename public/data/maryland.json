@@ -1,12 +1,11 @@
 {
   "state": "Maryland",
-  "name": "Democratic Primary",
-  "date": "2026-06-23",
+  "name": "General Election",
+  "date": "2026-11-03",
   "ballot": [
     {
       "office": "Governor / Lieutenant Governor",
       "candidates": [
-        "Eric Felber / LaTrece Hawkins Lytes",
         "Wes Moore / Aruna Miller"
       ]
     },

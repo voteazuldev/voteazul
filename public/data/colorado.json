@@ -1,27 +1,24 @@
 {
   "state": "Colorado",
-  "name": "Democratic Primary",
-  "date": "2026-06-30",
+  "name": "General Election",
+  "date": "2026-11-03",
   "ballot": [
     {
       "office": "U.S. Senator",
       "candidates": [
-        "John Hickenlooper",
-        "Julie Gonzales"
+        "John Hickenlooper"
       ]
     },
     {
       "office": "Governor",
       "candidates": [
-        "Michael Bennet",
         "Phil Weiser"
       ]
     },
     {
       "office": "Secretary of State",
       "candidates": [
-        "Amanda Gonzalez",
-        "Jessie Danielson"
+        "Amanda Gonzalez"
       ]
     },
     {
@@ -33,10 +30,7 @@
     {
       "office": "Attorney General",
       "candidates": [
-        "David Seligman",
-        "Hetal Doshi",
-        "Jena Griswold",
-        "Michael Dougherty"
+        "Jena Griswold"
       ]
     }
   ]

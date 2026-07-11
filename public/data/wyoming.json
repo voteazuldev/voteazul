@@ -1,26 +1,39 @@
 {
-  "state": "Wisconsin",
+  "state": "Wyoming",
   "name": "Democratic Primary",
-  "date": "2026-08-19",
+  "date": "2026-08-18",
   "ballot": [
     {
       "office": "U.S. Senator",
       "candidates": [
         "Billy Benavidez",
-        "James W. Byrd"
+        "James Byrd"
       ]
     },
     {
       "office": "U.S. Representative",
       "candidates": [
-        "Elena del Real",
-        "Lisa F. Kinney"
+        "Elena Del Real",
+        "Lisa Kinney"
       ]
     },
     {
       "office": "Governor",
       "candidates": [
-        "Ken Casner"
+        "Kenneth R. Casner"
+      ]
+    },
+    {
+      "office": "Secretary of State",
+      "candidates": [
+        "Bryan McCarty"
+      ]
+    },
+    {
+      "office": "Superintendent of Public Instruction",
+      "candidates": [
+        "Ana Cordova",
+        "Sergio A. Maldonado, Sr."
       ]
     }
   ]

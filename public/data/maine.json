@@ -1,25 +1,18 @@
 {
   "state": "Maine",
-  "name": "Democratic Primary",
-  "date": "2026-06-09",
+  "name": "General Election",
+  "date": "2026-11-03",
   "ballot": [
     {
       "office": "U.S. Senator",
       "candidates": [
-        "Andrea LaFlamme",
-        "David Costello",
-        "Graham Platner",
-        "Janet Mills"
+        "TBD"
       ]
     },
     {
       "office": "Governor",
       "candidates": [
-        "Angus King III",
-        "Hannah Pingree",
-        "Nirav Shah",
-        "Shenna Bellows",
-        "Troy Jackson"
+        "Hannah Pingree"
       ]
     }
   ]
