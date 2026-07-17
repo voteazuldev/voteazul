@@ -56,7 +56,10 @@ function BallotCard({ state, ballot, electionData, electionName, electionDate, s
         document.body.removeChild(clone);
 
         canvas.toBlob(async (blob) => {
-            const file = new File([blob], "my-endorsements.png", { type: "image/png" });
+
+            const formattedStateName = state.toLowerCase().replace(" ", "-");
+            const fileName = "my-" + formattedStateName + "-endorsements.png";
+            const file = new File([blob], fileName, { type: "image/png" });
 
             if (isMobile() && navigator.canShare && navigator.canShare({ files: [file] })) {
                 try {
@@ -72,7 +75,7 @@ function BallotCard({ state, ballot, electionData, electionName, electionDate, s
 
             const url = URL.createObjectURL(blob);
             const link = document.createElement("a");
-            link.download = "my-endorsements.png";
+            link.download = fileName;
             link.href = url;
             link.click();
             URL.revokeObjectURL(url);
