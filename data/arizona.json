@@ -1,7 +1,7 @@
 {
   "state": "Arizona",
-  "name": "Democratic Primary Election",
-  "date": "2026-07-21",
+  "name": "General Election",
+  "date": "2026-11-03",
   "ballot": [
     {
       "office": "Governor",
@@ -36,7 +36,6 @@
     {
       "office": "Superintendent of Public Instruction",
       "candidates": [
-        "Brett Matthew Newby",
         "Teresa Leyba Ruiz"
       ]
     },
