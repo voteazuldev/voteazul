@@ -1,37 +1,24 @@
 {
     "state": "Kansas",
-    "name": "Democratic Primary",
-    "date": "2026-08-04",
+    "name": "General Election",
+    "date": "2026-11-03",
     "ballot": [
         {
             "office": "U.S. Senator",
             "candidates": [
-                "Adam Hamilton",
-                "Anne Parelkar",
-                "Christy Davis",
-                "Damon Anderson",
-                "Erik Murray",
-                "Jason Hart",
-                "Kevin Latz",
-                "Michael \"Mike\" Soetaert",
-                "Noah Taylor",
-                "Patrick C. Schmidt",
-                "Sandy Spidel Neumann"
+                "Adam Hamilton"
             ]
         },
         {
             "office": "Governor / Lieutenant Governor",
             "candidates": [
-                "Cindy Holscher / KC Ohaebosim",
-                "Curt Skoog / Jennifer Bacani McKenney",
-                "Ethan Corson / Renee Duxler"
+                "Cindy Holscher / KC Ohaebosim"
             ]
         },
         {
             "office": "Secretary of State",
             "candidates": [
-                "Jennifer Day",
-                "Samuel Lane"
+                "Jennifer Day"
             ]
         },
         {
