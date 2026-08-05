@@ -1,35 +1,30 @@
 {
     "state": "Michigan",
-    "name": "Democratic Primary",
-    "date": "2026-08-04",
+    "name": "General Election",
+    "date": "2026-11-03",
     "ballot": [
         {
             "office": "U.S. Senator",
             "candidates": [
-                "Abdul El-Sayed",
-                "Haley Stevens"
+                "Abdul El-Sayed"
             ]
         },
         {
             "office": "Governor",
             "candidates": [
-                "Chris Swanson",
                 "Jocelyn Benson"
             ]
         },
         {
             "office": "Secretary of State",
             "candidates": [
-                "Barbara Byrum",
-                "Garlin Gilchrist",
-                "Suzanna Shkreli"
+                "Garlin Gilchrist"
             ]
         },
         {
             "office": "Attorney General",
             "candidates": [
-                "Eli Savit",
-                "William Noakes"
+                "Eli Savit"
             ]
         }
     ]
