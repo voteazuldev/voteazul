@@ -10,10 +10,15 @@
         "Francesca Hong",
         "Joel Brennan",
         "Kelda Roys",
-        "Kirk Bangstad",
         "Mandela Barnes",
         "Missy Hughes",
         "Sara Rodriguez"
+      ]
+    },
+    {
+      "office": "Lieutenant Governor",
+      "candidates": [
+        "Sarah Godlewski"
       ]
     },
     {
@@ -25,14 +30,13 @@
     {
       "office": "Secretary of State",
       "candidates": [
-        "Eileen Newcomer",
         "JoCasta Zamarripa"
       ]
     },
     {
       "office": "State Treasurer",
       "candidates": [
-        "Dylan Helmenstine",
+        "Dylan Ray Helmenstine",
         "Yee Leng Xiong"
       ]
     }
