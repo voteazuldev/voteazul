@@ -13,14 +13,18 @@
         {
             "office": "Governor",
             "candidates": [
-                "David Jolly"
+                "David Jolly / Gwen Graham",
+                "Dayna Marie Foster",
+                "Dotie Joseph",
+                "Evelyn Castillo-Bach",
+                "Stephann Norman",
+                "Thomas Eloy Fernandez"
             ]
         },
         {
             "office": "Attorney General",
             "candidates": [
-                "Jim Lewis",
-                "José Javier Rodríguez"
+                "Jose Javier Rodriguez"
             ]
         },
         {
@@ -28,6 +32,13 @@
             "candidates": [
                 "Annette Taddeo",
                 "Earle Ford"
+            ]
+        },
+        {
+            "office": "Commissioner of Agriculture",
+            "candidates": [
+                "Donald A. \"Don\" Prichard",
+                "Joey Mendoza Atkins"
             ]
         }
     ]
