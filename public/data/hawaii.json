@@ -1,32 +1,18 @@
 {
     "state": "Hawaii",
     "name": "Democratic Primary",
-    "date": "2026-08-08",
+    "date": "2026-11-03",
     "ballot": [
         {
             "office": "Governor",
             "candidates": [
-                "Bu Laia Hill",
-                "Clyde McClain (Mac) Lewman",
-                "Dicky L. (Frank) Ling",
-                "Duke Bourgoin",
-                "George (Teva) Lucas-Tadeo",
-                "George R. Puder",
-                "Hans (Keoni) Wilhelm",
-                "Henry Tangitau",
-                "Josh Green",
-                "Lauren Kapoliahi'iaka Shim"
+                "Josh Green"
             ]
         },
         {
             "office": "Lieutenant Governor",
             "candidates": [
-                "Della Au Belatti",
-                "Derek S.K. Kawakami",
-                "John Choi",
-                "Ku L. (Bobby) Cuadra",
-                "Mike K. Peacock",
-                "Sam Puletasi"
+                "Derek S.K. Kawakami"
             ]
         }
     ]
