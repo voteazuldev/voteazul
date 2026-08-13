@@ -1,29 +1,18 @@
 {
     "state": "Minnesota",
-    "name": "Democratic Primary",
-    "date": "2026-08-11",
+    "name": "General Election",
+    "date": "2026-11-03",
     "ballot": [
         {
             "office": "U.S. Senator",
             "candidates": [
-                "Angie Craig",
-                "Billy Nord",
-                "George H Kalberer",
-                "Kurt Michael Anderson",
-                "Peggy Flanagan",
-                "Peter John Murgic"
+                "Peggy Flanagan"
             ]
         },
         {
             "office": "Governor / Lieutenant Governor",
             "candidates": [
-                "Amy Klobuchar / Ben Schierer",
-                "Bill E Gates J.R. / Leah Harris",
-                "Kobey J Layne / Paul Ference",
-                "Mohammad Wazwaz / Murad Alshlool",
-                "Ole \"Viking\" Savior / Ashley \"Skol\" Johnson",
-                "Po Vang / Mark Frascone",
-                "Thomas Evenstad / Jason Haarsager"
+                "Amy Klobuchar / Ben Schierer"
             ]
         },
         {
@@ -41,7 +30,6 @@
         {
             "office": "Attorney General",
             "candidates": [
-                "David J.S. Madgett",
                 "Keith Ellison"
             ]
         }

@@ -1,7 +1,7 @@
 {
   "state": "Vermont",
-  "name": "Democratic Primary",
-  "date": "2026-08-11",
+  "name": "General Election",
+  "date": "2026-11-03",
   "ballot": [
     {
       "office": "U.S. Representative",
@@ -12,16 +12,13 @@
     {
       "office": "Governor",
       "candidates": [
-        "Aly Richards",
         "Amanda Janoo"
       ]
     },
     {
       "office": "Lieutenant Governor",
       "candidates": [
-        "Esther Charlestin",
-        "Molly Gray",
-        "Ryan McLaren"
+        "Molly Gray"
       ]
     },
     {
@@ -39,8 +36,6 @@
     {
       "office": "Auditor of Accounts",
       "candidates": [
-        "Dan Towle",
-        "Nicholas Graeter",
         "Tim Ashe"
       ]
     },
@@ -48,6 +43,13 @@
       "office": "Attorney General",
       "candidates": [
         "Charity R. Clark"
+      ]
+    },
+    {
+      "office": "Proposal 3",
+      "candidates": [
+        "Yes",
+        "No"
       ]
     }
   ]
