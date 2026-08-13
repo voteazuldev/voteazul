@@ -1,13 +1,36 @@
 {
     "state": "Connecticut",
-    "name": "Democratic Primary",
-    "date": "2026-08-11",
+    "name": "General Election",
+    "date": "2026-11-03",
     "ballot": [
         {
             "office": "Governor",
             "candidates": [
-                "Josh Elliott",
                 "Ned Lamont"
+            ]
+        },
+        {
+            "office": "Attorney General",
+            "candidates": [
+                "William Tong"
+            ]
+        },
+        {
+            "office": "Secretary of the State",
+            "candidates": [
+                "Stephanie Thomas"
+            ]
+        },
+        {
+            "office": "State Comptroller",
+            "candidates": [
+                "Sean Scanlon"
+            ]
+        },
+        {
+            "office": "State Treasurer",
+            "candidates": [
+                "Erick Russell"
             ]
         }
     ]
