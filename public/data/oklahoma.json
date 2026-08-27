@@ -1,13 +1,54 @@
 {
   "state": "Oklahoma",
-  "name": "Democratic Primary Runoff",
-  "date": "2026-08-25",
+  "name": "General Election",
+  "date": "2026-11-03",
   "ballot": [
     {
       "office": "U.S. Senator",
       "candidates": [
-        "Jim Priest",
         "N'Kiyla Jasmine Thomas"
+      ]
+    },
+    {
+      "office": "Governor",
+      "candidates": [
+        "Cyndi Munson"
+      ]
+    },
+    {
+      "office": "Lieutenant Governor",
+      "candidates": [
+        "Kelly Forbes"
+      ]
+    },
+    {
+      "office": "Attorney General",
+      "candidates": [
+        "Nick Coffey"
+      ]
+    },
+    {
+      "office": "Superintendent of Public Instruction",
+      "candidates": [
+        "Jennettie Marshall"
+      ]
+    },
+    {
+      "office": "Commissioner of Labor",
+      "candidates": [
+        "Kevin Dawson"
+      ]
+    },
+    {
+      "office": "Insurance Commissioner",
+      "candidates": [
+        "Craig MacIntyre"
+      ]
+    },
+    {
+      "office": "Corporation Commissioner",
+      "candidates": [
+        "Rhonda Eastman"
       ]
     }
   ]
