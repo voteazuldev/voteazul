@@ -1,19 +1,17 @@
 {
   "state": "Wyoming",
-  "name": "Democratic Primary",
-  "date": "2026-08-18",
+  "name": "General Election",
+  "date": "2026-11-03",
   "ballot": [
     {
       "office": "U.S. Senator",
       "candidates": [
-        "Billy Benavidez",
         "James Byrd"
       ]
     },
     {
       "office": "U.S. Representative",
       "candidates": [
-        "Elena Del Real",
         "Lisa Kinney"
       ]
     },
@@ -32,8 +30,7 @@
     {
       "office": "Superintendent of Public Instruction",
       "candidates": [
-        "Ana Cordova",
-        "Sergio A. Maldonado, Sr."
+        "Ana Cordova"
       ]
     }
   ]
