@@ -1,24 +1,18 @@
 {
     "state": "Florida",
-    "name": "Democratic Primary",
-    "date": "2026-08-18",
+    "name": "General Election",
+    "date": "2026-11-03",
     "ballot": [
         {
             "office": "U.S. Senator",
             "candidates": [
-                "Angie Nixon",
-                "Alex Vindman"
+                "Angie Nixon"
             ]
         },
         {
             "office": "Governor",
             "candidates": [
-                "David Jolly / Gwen Graham",
-                "Dayna Marie Foster",
-                "Dotie Joseph",
-                "Evelyn Castillo-Bach",
-                "Stephann Norman",
-                "Thomas Eloy Fernandez"
+                "David Jolly / Gwen Graham"
             ]
         },
         {
@@ -30,14 +24,12 @@
         {
             "office": "Chief Financial Officer",
             "candidates": [
-                "Annette Taddeo",
-                "Earle Ford"
+                "Annette Taddeo"
             ]
         },
         {
             "office": "Commissioner of Agriculture",
             "candidates": [
-                "Donald A. \"Don\" Prichard",
                 "Joey Mendoza Atkins"
             ]
         }

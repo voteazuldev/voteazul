@@ -1,13 +1,11 @@
 {
   "state": "Alaska",
   "name": "Primary Election",
-  "date": "2026-08-18",
+  "date": "2026-11-03",
   "ballot": [
     {
       "office": "U.S. Senator",
       "candidates": [
-        "Carol \"Kitty\" Hafner",
-        "David B. Leslie",
         "Mary Peltola"
       ]
     },
@@ -15,18 +13,13 @@
       "office": "U.S. Representative",
       "candidates": [
         "Bill Hill",
-        "Eric Hafner",
-        "John B. Williams",
-        "Matt Schultz",
-        "Yaquelin Reynoso"
+        "Eric Hafner"
       ]
     },
     {
       "office": "Governor / Lieutenant Governor",
       "candidates": [
-        "Bill Walker / Randy Hoffbeck",
         "Jonathan S. \"JKT\" Kreiss-Tomkins / Zac Johsnon",
-        "Meda DeWitt / Christopher Steere",
         "Tom Begich / Julia Hnilicka"
       ]
     }
