@@ -6,48 +6,51 @@
     {
       "office": "U.S. Senator",
       "candidates": [
-        "Connor Burbridge",
-        "Jack Reed"
+        "Connor Francis Burbridge",
+        "John Francis Reed",
+        "Luis Daniel Munoz"
       ]
     },
     {
       "office": "Governor",
       "candidates": [
-        "Dan McKee",
-        "Gregory Stevens",
-        "Helena Foulkes",
-        "Wil Gregersen"
+        "Daniel J. McKee",
+        "Gregory D. Stevens",
+        "Helena Buonanno Foulkes",
+        "Jonathan A. Coker",
+        "Steven R. Gregersen"
       ]
     },
     {
       "office": "Lieutenant Governor",
       "candidates": [
         "Cynthia Armour Coyne",
-        "Fred McLin III",
+        "Ross Kenneth John McCurdy",
         "Sabina Matos",
-        "Sue AnderBois",
-        "Xay Khamsyvoravong"
+        "Susan Ruth AnderBois",
+        "Xaykham Rexford Khamsyvoravong"
       ]
     },
         {
       "office": "Secretary of State",
       "candidates": [
+        "Anthony N. B. Tamba",
         "Gregg Amore"
       ]
     },
     {
       "office": "Attorney General",
       "candidates": [
-        "Jason Knight",
-        "Joseph J. Solomon Jr.",
-        "Keith Hoffmann",
-        "Kimberly Ahern"
+        "Jason P. Knight",
+        "Joseph J. Solomon",
+        "Keith D. Hoffmann",
+        "Kimberly Renee Ahern"
       ]
     },
     {
-      "office": "Treasurer",
+      "office": " General Treasurer",
       "candidates": [
-        "James Diossa"
+        "James A. Diossa"
       ]
     }
   ]
