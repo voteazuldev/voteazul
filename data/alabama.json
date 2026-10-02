@@ -28,6 +28,12 @@
       ]
     },
     {
+      "office": "Associate Justice Place 8",
+      "candidates": [
+        "Ashleigh Meyer Dunham"
+      ]
+    },
+    {
       "office": "Secretary of State",
       "candidates": [
         "Wayne Rogers"
@@ -49,6 +55,46 @@
       "office": "Commissioner of Agriculture and Industries",
       "candidates": [
         "Ron Sparks"
+      ]
+    },
+    {
+      "office": "Public Service Commission Place 1",
+      "candidates": [
+        "James O. Gordon"
+      ]
+    },
+    {
+      "office": "Public Service Commission Place 2",
+      "candidates": [
+        "Sheila D. McNeil"
+      ]
+    },
+    {
+      "office": "Amendment 1",
+      "candidates": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "office": "Amendment 2",
+      "candidates": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "office": "Amendment 3",
+      "candidates": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "office": "Amendment 4",
+      "candidates": [
+        "Yes",
+        "No"
       ]
     }
   ]
