@@ -166,6 +166,9 @@ function App() {
             <a href="https://bsky.app/profile/voteazul.bsky.social" target="_blank" rel="noopener noreferrer">
               <i className="ti ti-brand-bluesky"></i>
             </a>
+            <a href="https://www.threads.com/@voteazul" target="_blank" rel="noopener noreferrer">
+              <i className="ti ti-brand-threads"></i>
+            </a>
             <a href="https://facebook.com/profile.php?id=61590515677125" target="_blank" rel="noopener noreferrer">
               <i className="ti ti-brand-facebook"></i>
             </a>
