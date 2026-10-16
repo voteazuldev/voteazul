@@ -8,6 +8,27 @@
       "candidates": [
         "Quentin Wilson"
       ]
+    },
+    {
+      "office": "Amendment 3",
+      "candidates": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "office": "Amendment 4",
+      "candidates": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "office": "Proposition A",
+      "candidates": [
+        "Yes",
+        "No"
+      ]
     }
   ]
 }
