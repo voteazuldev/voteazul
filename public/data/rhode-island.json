@@ -1,49 +1,35 @@
 {
   "state": "Rhode Island",
-  "name": "Democratic Primary",
-  "date": "2026-09-09",
+  "name": "General Election",
+  "date": "2026-11-03",
   "ballot": [
     {
       "office": "U.S. Senator",
       "candidates": [
-        "Connor Francis Burbridge",
-        "John Francis Reed",
-        "Luis Daniel Munoz"
+        "John Francis Reed"
       ]
     },
     {
       "office": "Governor",
       "candidates": [
-        "Daniel J. McKee",
-        "Gregory D. Stevens",
-        "Helena Buonanno Foulkes",
-        "Jonathan A. Coker",
-        "Steven R. Gregersen"
+        "Helena Buonanno Foulkes"
       ]
     },
     {
       "office": "Lieutenant Governor",
       "candidates": [
-        "Cynthia Armour Coyne",
-        "Ross Kenneth John McCurdy",
-        "Sabina Matos",
-        "Susan Ruth AnderBois",
-        "Xaykham Rexford Khamsyvoravong"
+        "Sabina Matos"
       ]
     },
         {
       "office": "Secretary of State",
       "candidates": [
-        "Anthony N. B. Tamba",
         "Gregg Amore"
       ]
     },
     {
       "office": "Attorney General",
       "candidates": [
-        "Jason P. Knight",
-        "Joseph J. Solomon",
-        "Keith D. Hoffmann",
         "Kimberly Renee Ahern"
       ]
     },
