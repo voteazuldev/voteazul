@@ -21,7 +21,7 @@
         "Sabina Matos"
       ]
     },
-        {
+    {
       "office": "Secretary of State",
       "candidates": [
         "Gregg Amore"
@@ -34,9 +34,44 @@
       ]
     },
     {
-      "office": " General Treasurer",
+      "office": "General Treasurer",
       "candidates": [
         "James A. Diossa"
+      ]
+    },
+    {
+      "office": "Question 1",
+      "candidates": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "office": "Question 2",
+      "candidates": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "office": "Question 3",
+      "candidates": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "office": "Question 4",
+      "candidates": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "office": "Question 5",
+      "candidates": [
+        "Yes",
+        "No"
       ]
     }
   ]
