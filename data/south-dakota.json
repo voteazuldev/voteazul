@@ -6,8 +6,7 @@
     {
       "office": "U.S. Senator",
       "candidates": [
-        "Brian Bengs",
-        "Julian Beaudion"
+        "Brian Bengs"
       ]
     },
     {
@@ -26,6 +25,37 @@
       "office": "Secretary of State",
       "candidates": [
         "Terrence Davis"
+      ]
+    },
+    {
+      "office": "State Treasurer",
+      "candidates": [
+        "Margaret Kuipers"
+      ]
+    },
+    {
+      "office": "State Auditor",
+      "candidates": [
+        "Tom Cool"
+      ]
+    },
+    {
+      "office": "Commissioner of School and Public Lands",
+      "candidates": [
+        "Raeann Mettler"
+      ]
+    },
+    {
+      "office": "Public Utilities Commissioner",
+      "candidates": [
+        "Frank Kloucek"
+      ]
+    },
+    {
+      "office": "Amendment L",
+      "candidates": [
+        "Yes",
+        "No"
       ]
     }
   ]
