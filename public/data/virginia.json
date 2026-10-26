@@ -8,6 +8,27 @@
       "candidates": [
         "Mark Warner"
       ]
+    },
+    {
+      "office": "Question 1",
+      "candidates": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "office": "Question 2",
+      "candidates": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "office": "Question 3",
+      "candidates": [
+        "Yes",
+        "No"
+      ]
     }
   ]
 }
