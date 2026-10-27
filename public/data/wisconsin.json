@@ -4,15 +4,9 @@
   "date": "2026-11-03",
   "ballot": [
     {
-      "office": "Governor",
+      "office": "Governor / Lieutenant Governor",
       "candidates": [
-        "David Crowley"
-      ]
-    },
-    {
-      "office": "Lieutenant Governor",
-      "candidates": [
-        "Sarah Godlewski"
+        "David Crowley / Sarah Godlewski"
       ]
     },
     {
@@ -31,6 +25,27 @@
       "office": "State Treasurer",
       "candidates": [
         "Yee Leng Xiong"
+      ]
+    },
+    {
+      "office": "Question 1",
+      "candidates": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "office": "Question 2",
+      "candidates": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "office": "Question 3",
+      "candidates": [
+        "Yes",
+        "No"
       ]
     }
   ]
